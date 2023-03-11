@@ -109,11 +109,11 @@ nav {
     right: 0;
     top: 0;
 
-    animation: cloud-r 4s linear infinite alternate;
+    animation: cloud-r 5s linear infinite alternate;
 }
 
 .cloud-left {
-    animation: cloud-l 3s linear infinite alternate;
+    animation: cloud-l 4s linear infinite alternate;
 }
 
 /* land */
@@ -385,20 +385,24 @@ footer .container {
 @keyframes cloud-r {
     0% {
         right: 0;
+        top: -50px;
     }
 
     100% {
-        right: 50px;
+        top: -70px;
+        right: -50px;
     }
 }
 
 @keyframes cloud-l {
     0% {
         left: 0;
+        bottom: 0px;
     }
 
     100% {
-        left: 100px;
+        left: -100px;
+        bottom: -20px;
     }
 }
 
