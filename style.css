@@ -30,18 +30,16 @@ header {
     border-bottom: 5px dotted #54545481;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 
 /* top */
 .top {
     width: 100vw;
     height: 100%;
     padding: 2rem 2rem 0;
-    /* display: flex;
-    flex-direction: column;
-    justify-content:space-between; */
+
+    overflow-x: hidden;
+
 
     background: #dfeae8;
 }
@@ -125,7 +123,7 @@ nav {
 }
 
 /* hello */
-.hello {
+#hello {
     max-width: 460px;
     margin: auto;
     padding: 6em 0;
@@ -153,7 +151,7 @@ nav {
 }
 
 /* i-do */
-.i-do {
+#i-do {
     padding: 5em;
 }
 
@@ -216,7 +214,7 @@ nav {
 
 /* mail */
 
-.mail {
+#mail {
     max-width: 700px;
     margin: auto;
     padding: 2em;
@@ -329,7 +327,7 @@ footer .container {
 
     /* i-do */
 
-    .i-do {
+    #i-do {
         padding: 5rem 3%;
     }
 
@@ -365,7 +363,7 @@ footer .container {
     }
 
     /* mail */
-    .mail {
+    #mail {
         width: 100%;
         padding: 2em 0;
     }
